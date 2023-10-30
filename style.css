@@ -1,58 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-/* header */
-
-.header-top{
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.header-top .left .main-links{
-    display: flex;
-}
-.header-top .left .main-links li{
-    list-style: none;
-}
-.header-top .left .main-links li a{
-    padding: 0 20px;
-    color: #000;
-    text-decoration: none;
-}
-.header-top .right .main-links{
-    display: flex;
-    align-items: center;
-}
-.header-top .right .main-links li{
-    list-style: none;
-}
-.header-top .right .main-links li a{
-    padding: 0 20px;
-    color: #000;
-    text-decoration: none;
-}
-.header-top li{
-    position: relative;
-}
-.header-top ul ul{
-    position: absolute;
-    left: -1rem;
-    line-height: 2em;
-    background-color: #fff;
-    border: 1px solid #e5e8ec;
-    z-index: 1;
-    display: none;
-}
-.header-top .right ul ul li a{
-    padding: 0.25em 1em;
-}
-.header-top .right ul ul li.current{
-    background-color: #e5e8ec;
-}
-.header-top li:hover ul{
-    display: block;
+    font-family: 'Poppins', sans-serif;
 }
